@@ -1089,7 +1089,7 @@ _LIBCPP_FUNC_VIS extern "C" void __sanitizer_annotate_contiguous_container(
 
 #if defined(__BIONIC__) || defined(__CloudABI__) ||                            \
     defined(__Fuchsia__) || defined(_LIBCPP_HAS_MUSL_LIBC) ||                  \
-    defined(_PDCLIB_C_VERSION)
+    defined(__Ananas__) || defined(_PDCLIB_C_VERSION)
 #define _LIBCPP_PROVIDES_DEFAULT_RUNE_TABLE
 #endif
 
